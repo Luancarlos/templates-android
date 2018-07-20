@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:id="@+id/background"
+    android:background="@drawable/background_night">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exemple_login"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/colorLight"
+        />
+
+    <EditText
+        android:id="@+id/textEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:textColorHint="@color/colorLight"
+        android:textColor="@color/colorLight"
+        android:textColorHighlight="@color/colorLight"/>
+
+    <EditText
+        android:id="@+id/textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textColorHint="@color/colorLight"
+        android:textColor="@color/colorLight"
+        android:textColorHighlight="@color/colorLight"
+        android:inputType="textPassword"
+        android:textColorLink="#fff"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/signin"
+        android:background="@drawable/color_degrade"
+        android:textColor="@color/colorWhite"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_register"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorLight" />
+
+
+
+
+</LinearLayout>

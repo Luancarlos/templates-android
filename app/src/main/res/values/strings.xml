@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">templates</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="exemple_login">Exemple Login</string>
+    <string name="test">Description logo test</string>
+    <string name="signin">Sign in</string>
+    <string name="msg_register">Do not have an account yet? Register</string>
+
+</resources>
