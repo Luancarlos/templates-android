@@ -3,9 +3,12 @@ package kekosat.com.br.templates;
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
+import android.util.Log;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import java.util.Calendar;
 
 import static org.junit.Assert.*;
 
@@ -22,5 +25,12 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("kekosat.com.br.templates", appContext.getPackageName());
+    }
+
+    @Test
+    public void getHours(){
+        Calendar now = Calendar.getInstance();
+        int currentHour = now.get(Calendar.HOUR_OF_DAY);
+        Log.i("horas", Integer.toString(currentHour));
     }
 }
