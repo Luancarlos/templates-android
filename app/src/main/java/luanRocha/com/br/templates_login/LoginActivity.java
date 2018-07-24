@@ -1,11 +1,8 @@
-package kekosat.com.br.templates;
+package luanRocha.com.br.templates_login;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.ImageView;
 
 import java.util.Calendar;

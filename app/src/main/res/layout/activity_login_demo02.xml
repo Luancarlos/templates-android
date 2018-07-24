@@ -3,17 +3,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:padding="20dp"
     android:background="@drawable/background_material"
-    tools:context="kekosat.com.br.templates.LoginDemo02Activity">
+    android:padding="20dp"
+    tools:context="luanRocha.com.br.templates_login.LoginDemo02Activity">
 
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Login"-->
+        <!--android:textSize="40sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textAlignment="center" />-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:textAlignment="center" />
+        android:textSize="30dp"
+        android:text="@string/my_account"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_above="@+id/card"
+        android:layout_centerHorizontal="true"
+        android:translationZ="0dp"
+        android:background="@drawable/background_round"
+
+    />
 
     <android.support.v7.widget.CardView
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
@@ -21,7 +41,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         card_view:cardCornerRadius="4dp"
-        android:elevation="10dp"
+        android:layout_marginTop="-60dp"
+        android:translationZ="-9dp"
         android:layout_centerInParent="true">
 
         <LinearLayout
@@ -45,17 +66,24 @@
                 android:drawableLeft="@mipmap/ic_lock"
                 android:hint="@string/password"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/forgot_pass"
+                android:gravity="end"
+                android:layout_marginTop="15dp"/>
+
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginTop="20dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
                 android:text="@string/signin"
                 android:background="@color/colorOrange"
-                android:stateListAnimator="@null"
-                android:elevation="2dp"
-                android:translationZ="2dp"/>
+                android:elevation="10dp" />
         </LinearLayout>
 
 
     </android.support.v7.widget.CardView>
+
+
 </RelativeLayout>

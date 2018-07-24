@@ -1,4 +1,4 @@
-package kekosat.com.br.templates;
+package luanRocha.com.br.templates_login;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
