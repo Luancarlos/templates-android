@@ -5,7 +5,7 @@
     <color name="colorAccent">#3f51b5</color>
     <color name="colorLight">#f3f3f3</color>
     <color name="colorWhite">#ffffff</color>
-    <color name="colorPurple">#b3597d</color>
-    <color name="colorDarkPurple">#583e5f</color>
+    <color name="colorPurpleLight">#ad7ce1</color>
+    <color name="colorDarkPurple">#8f49dc</color>
     <color name="colorOrange">#fe9400</color>
 </resources>

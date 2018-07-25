@@ -14,17 +14,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="luanRocha.com.br.templates_login.LoginActivity">
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity
+            android:name=".LoginDemo02Activity"
+            android:label="@string/title_activity_login_demo02" />
+        <activity android:name=".Login_simple">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="luanRocha.com.br.templates_login.LoginDemo02Activity"
-            android:label="@string/title_activity_login_demo02">
-
         </activity>
     </application>
 

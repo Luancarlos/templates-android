@@ -10,4 +10,5 @@
     <string name="login">LOGIN</string>
     <string name="forgot_pass">Forgot Password?</string>
     <string name="my_account">My Account</string>
+    <string name="txt_login_simple">Only a simple login layout</string>
 </resources>
